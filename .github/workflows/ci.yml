@@ -22,7 +22,7 @@ jobs:
       - name: Grant rights
         run: chmod +x android/build.gradle
       - name: Grant Gradlew rights
-        run: chmod +x gradlew
+        run: chmod +x android/gradlew
       - name: Clean Gradle
         run : ./gradlew clean
       - name: Build Android Release
