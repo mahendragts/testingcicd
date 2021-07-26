@@ -20,7 +20,7 @@ jobs:
         run: |
           npm install
       - name: Grant rights
-        run: chmod +x build.gradle
+        run: chmod +x android/build.gradle
       - name: Grant Gradlew rights
         run: chmod +x gradlew
       - name: Clean Gradle
