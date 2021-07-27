@@ -64,7 +64,7 @@ const App: () => Node = () => {
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <View style={ styles.container }>
-        <Text>WelCome To React-Native
+        <Text>WelCome To React-Native2 
         </Text>
       </View>
     </SafeAreaView>
